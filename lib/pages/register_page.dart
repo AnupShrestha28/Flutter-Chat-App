@@ -205,7 +205,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         pfpURL: pfpURL),
                   );
                   _alertService.showToast(
-                    text: "USer Registered Successfully",
+                    text: "User Registered Successfully",
                     icon: Icons.check,
                   );
                   _navigationService.goBack();
@@ -220,7 +220,7 @@ class _RegisterPageState extends State<RegisterPage> {
           } catch (e) {
             print(e);
             _alertService.showToast(
-              text: "Falied to register, please try again!",
+              text: "Failed to register, please try again!",
               icon: Icons.error,
             );
           }
